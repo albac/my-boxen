@@ -57,6 +57,12 @@ github "ruby",        "8.1.7"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
+github "vagrant",     "3.2.2"
+github "docker",      "0.8.0"
+github "virtualbox",  "1.0.13"
+github "skype",       "1.1.0"
+github "screen",      "1.0.0"
+github "iterm2",      "1.2.2"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

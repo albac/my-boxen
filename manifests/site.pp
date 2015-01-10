@@ -57,6 +57,12 @@ node default {
   include git
   include hub
   include nginx
+  include vagrant
+  include docker
+  include virtualbox
+  include skype
+  include iterm2::stable
+  include screen
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
