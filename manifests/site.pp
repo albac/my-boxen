@@ -61,8 +61,12 @@ node default {
   include docker
   include virtualbox
   include skype
+  include macvim
   include iterm2::stable
   include screen
+  include chrome
+  include evernote
+  include colloquy
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

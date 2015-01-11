@@ -63,6 +63,10 @@ github "virtualbox",  "1.0.13"
 github "skype",       "1.1.0"
 github "screen",      "1.0.0"
 github "iterm2",      "1.2.2"
+github "macvim",      "1.0.0"
+github "chrome",      "1.2.0"
+github "evernote",    "2.0.7"
+github "colloquy",    "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
