@@ -67,6 +67,7 @@ node default {
   include chrome
   include evernote
   include colloquy
+  include googledrive
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
