@@ -68,6 +68,12 @@ node default {
   include evernote
   include colloquy
   include googledrive
+  class { 'osx::dock::position':
+    position => 'bottom'
+  }
+  osx::recovery_message { 'If this Mac is found, please call 301-802-3147': }
+  include bash
+  include bash::completion
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
