@@ -68,12 +68,9 @@ node default {
   include evernote
   include colloquy
   include googledrive
-<<<<<<< HEAD
   include android_file_transfer
-=======
   include tmux
   include java
->>>>>>> f5db6834caaf2eede0ddf629e9544adfc1b26580
   class { 'osx::dock::position':
     position => 'right'
   }
