@@ -68,8 +68,10 @@ node default {
   include evernote
   include colloquy
   include googledrive
+  include tmux
+  include java
   class { 'osx::dock::position':
-    position => 'bottom'
+    position => 'right'
   }
   osx::recovery_message { 'If this Mac is found, please call 301-802-3147': }
   include bash
