@@ -77,6 +77,8 @@ node default {
   osx::recovery_message { 'If this Mac is found, please call 301-802-3147': }
   include bash
   include bash::completion
+  include sysctl
+  include postgresql
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
