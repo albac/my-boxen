@@ -79,6 +79,7 @@ node default {
   include bash::completion
   include sysctl
   include postgresql
+  include mongodb
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
