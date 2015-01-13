@@ -76,6 +76,9 @@ github "java",        "1.8.0"
 github "sysctl",      "1.0.1"
 github "postgresql",  "3.0.2"
 github "mongodb",     "1.3.3"
+github "xquartz",     "1.2.1"
+#github "python",     "2.0.0"
+github "intellij",    "1.5.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
