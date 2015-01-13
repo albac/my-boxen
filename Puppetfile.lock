@@ -168,7 +168,13 @@ GITHUBTARBALL
   specs:
     module_data (0.0.3)
 
+GITHUBTARBALL
+  remote: singuerinc/puppet-android_file_transfer
+  specs:
+    android_file_transfer (1.0.3)
+
 DEPENDENCIES
+  android_file_transfer (= 1.0.3)
   bash (= 1.2.0)
   boxen (= 3.10.1)
   brewcask (= 0.0.4)

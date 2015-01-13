@@ -68,6 +68,7 @@ node default {
   include evernote
   include colloquy
   include googledrive
+  include android_file_transfer
   class { 'osx::dock::position':
     position => 'bottom'
   }

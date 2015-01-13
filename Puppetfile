@@ -70,6 +70,7 @@ github "colloquy",    "1.0.0"
 github "googledrive", "1.0.2"
 github "osx",         "2.8.0"
 github "bash",        "1.2.0"
+github "android_file_transfer", "1.0.3", :repo => "singuerinc/puppet-android_file_transfer"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
