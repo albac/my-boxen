@@ -78,15 +78,15 @@ node default {
   include bash
   include bash::completion
   include sysctl
-  include postgresql
+  #include postgresql
   include mongodb
   include xquartz
   # include python
 
-  class { 'intellij':
-  edition => 'ultimate',
-    version => '14.0.2'
-  }
+  #class { 'intellij':
+  #edition => 'ultimate',
+  #  version => '14.0.2'
+  #}
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
