@@ -53,12 +53,14 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
+  include automake
   include dnsmasq
-  include git
+  class { 'git' : version => '2.5.0' }
   include hub
   include nginx
   include vagrant
   include docker
+  include awscli
   include virtualbox
   include skype
   include macvim
@@ -68,6 +70,7 @@ node default {
   include evernote
   include colloquy
   include googledrive
+#  include google_music_manager
   include android_file_transfer
   include tmux
   include java
@@ -79,7 +82,7 @@ node default {
   include bash::completion
   include sysctl
   #include postgresql
-  include mongodb
+  #include mongodb
   include xquartz
   # include python
 
