@@ -64,7 +64,15 @@ node default {
   include awscli
   include virtualbox
   include skype
-  include macvim
+  include vim
+  vim::bundle { [
+  'scrooloose/syntastic',
+  'garbas/vim-snipmate',
+  'MarcWeber/vim-addon-mw-utils',
+  'tomtom/tlib_vim',
+  'honza/vim-snippets',
+  'rodjek/vim-puppet',
+]: }
   include iterm2::stable
   include screen
   include chrome
