@@ -59,7 +59,8 @@ node default {
   include hub
   include nginx
   include vagrant
-  include docker
+  include wget
+  #include docker
   include awscli
   include virtualbox
   include skype

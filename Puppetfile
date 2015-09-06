@@ -79,6 +79,7 @@ github "postgresql",  "3.0.2"
 github "mongodb",     "1.3.3"
 github "xquartz",     "1.2.1"
 github "vagrant",     "3.3.1"
+github "wget",        "1.0.1"
 #github "python",     "2.0.0"
 #github "google-music-manager", "1.0.1", :repo => "typhonius/puppet-google-music-manager"
 
